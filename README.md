@@ -1,18 +1,16 @@
 # Oi, eu sou o Gabriel Aguiar! 👋
 
 <div align="center">
-  <a href="https://github.com/Raiugami">
-    <img
-      height="180em"
-      src="https://github-readme-stats.vercel.app/api?username=Raiugami&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
-      alt="Estatísticas do GitHub"
-    />
-    <img
-      height="180em"
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=Raiugami&layout=compact&langs_count=7&theme=dracula"
-      alt="Linguagens mais usadas"
-    />
-  </a>
+  <img
+    height="200em"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Raiugami&theme=dracula"
+    alt="Estatísticas do GitHub"
+  />
+  <img
+    height="200em"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Raiugami&theme=dracula"
+    alt="Linguagens mais usadas"
+  />
 </div>
 
 <div style="display: inline_block"><br>
