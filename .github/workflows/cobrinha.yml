@@ -1,15 +1,22 @@
-name: Generate Datas
+name: Atualizar perfil e cobrinha
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
 jobs:
   build:
-    name: Jobs to update datas
+    name: Atualizar dados do perfil
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       # Summary Cards
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
